@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #C1E5C2;
+}
+
+.header {
+  background-color: #97CA97;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: auto;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+.header h1 {
+  color: #333333;
+  margin: 0;
+}
+
+.gps-link {
+  color: #333333;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.menu-item {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.menu-item h2 {
+  margin: 10px 0;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.footer {
+  background-image: url("wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #8FB28F;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.menu-item h2 {
+  margin: 10px 0;
+  text-align: center;
+  background-color: #69AF7C;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 5vh;
+  transform: translateY(-20%);
+}
